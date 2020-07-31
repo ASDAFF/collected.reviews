@@ -1,0 +1,24 @@
+/*
+ * Copyright (c) 31/7/2020 Created By/Edited By ASDAFF asdaff.asad@yandex.ru
+ */
+
+/*collected reviews rating*/
+.collected_reviews_rating{ display: inline-block; margin: 5px 0px 15px 0px;	padding: 0px !important; line-height: 22px;}
+	.collected_reviews_rating .star { display: block; width: 110px; margin: 0px 0 0 0px; padding: 0px !important;  background: url(images/collected.reviews/star.png) 0 0 repeat-x; overflow: hidden; height: 20px; float: left; line-height: 22px; }
+	.collected_reviews_rating .star.short{width: 22px;}
+	.collected_reviews_rating .star span{ display: inline-block;	margin: 0px !important;	padding: 0px !important; height: 20px; background: url(images/collected.reviews/star.png) 0px -20px repeat-x;	}
+
+/*collected reviews rating 16px*/
+.collected_reviews_rating .star.star16{ width: 90px; height: 16px;	background-image: url(images/collected.reviews/star16.png); }
+	.collected_reviews_rating .star.star16.short{ width: 16px;	}
+		.collected_reviews_rating .star.star16 span{ display: block; height: 16px; background-image: url(images/collected.reviews/star16.png); background-position: 0px -16px; }
+
+/*collected reviews rating selector*/
+.collected_reviews_rating_selector { display: block; border: none; width: 110px; height: 20px; margin: 4px 0 4px 0; background: url(images/collected.reviews/star.png) 0px 0px repeat-x;}
+	.collected_reviews_rating_selector a{ display: block; width: 22px; float: left; height: 20px; }
+	.collected_reviews_rating_selector a.hover{ background-image: url(images/collected.reviews/star.png); background-position: 0px -20px; background-repeat: repeat-x; }
+	
+/*collected reviews rating info*/
+.collected_reviews_rating .users-counter { color: #717171; float: left; line-height: 22px; padding: 0 0 0 7px; margin: 0px; font-size: 10px;}
+.collected_reviews_rating .rating.common {margin: 5px 0 30px 0;}
+

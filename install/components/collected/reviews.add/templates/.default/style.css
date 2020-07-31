@@ -1,0 +1,184 @@
+/*
+ * Copyright (c) 31/7/2020 Created By/Edited By ASDAFF asdaff.asad@yandex.ru
+ */
+
+.collected_reviews_form {	display: inline-block; width: 100%; max-width: 510px; min-width: 410px; clear: both;}
+.collected_reviews_form:ather{clear: both;}
+	.collected_reviews_form form{ width: 100%;	position: relative;	}
+
+	.collected_reviews_form .open	{
+		display: inline-block;
+		cursor: pointer;
+		text-decoration: none;
+		border-bottom: 1px dashed #3A75C4;
+		color: #3A75C4;
+		padding: 0px;
+		margin: 10px 0 20px 0;
+		font-size: 20px;
+		}
+	
+		.collected_reviews_form a.opened	{
+			color: #717171;
+			border-bottom: 0px dashed #717171;
+			}
+		
+	.collected_reviews_form form .closeForm{
+		display: inline-block;
+		position: absolute;
+		width: 10px;
+		right: 5px;
+		top: -15px;
+		text-decoration: none;
+		color: red;
+		font-weight: bold;
+		}	
+
+	.collected_reviews_form .errors{ color: #FA051D;	margin-bottom: 30px; }
+	.collected_reviews_form .errors p {font-weight: bold;}
+	.collected_reviews_form .sucess{ color: green; margin-bottom: 30px; }
+	.collected_reviews_form .required{ color: red; font-size: 120%;	line-height: 10px;}
+
+	.collected_reviews_form  em.error {color: #FA051D; clear: both; padding: 3px 4px; position: absolute; margin-left: 20px; }
+	.collected_reviews_form  em.error.ta {position: relative; margin-left: 0px; }
+	.collected_reviews_form  .inp-area.captcha em.error {margin-left: 0px;}
+	
+	.collected_reviews_form .inp-area{
+		display: inline-block; 
+		width: 100%; 
+		padding: 0px 0px 10px 0px; 
+		-moz-box-sizing: border-box; 
+		box-sizing: border-box; 
+		}
+	.collected_reviews_form .inp-area.error {}
+	.collected_reviews_form .inp-area.error textarea, .collected_reviews_form .inp-area.error select, .collected_reviews_form .inp-area.error input{border: 1px solid #FA051D  !important;}
+	.collected_reviews_form .inp-area.error textarea {margin-bottom: 10px;}
+
+	.collected_reviews_form .inp-area label.title{ display: block; color: #919191; font-weight: normal; weight: 100%;  padding: 0px; margin: 0px;}
+	.collected_reviews_form .inp-area label.title span {display: block;  weight: 100%; clear: both; }
+	
+	.collected_reviews_form  .inp-area textarea, .collected_reviews_form  .inp-area select, .collected_reviews_form  .inp-area input[type=text]{
+		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-size: 14px;
+		padding: 3px 7px; 
+		margin: 2px 0px 0px 0px;
+
+		color: #616161;
+		width: 100%;
+		min-height: 30px;
+		border: 1px solid #ccc;
+		font-weight: none;
+		background: #fff;
+		
+		-webkit-border-radius:	3px;
+		 -moz-border-radius: 	3px;
+			  border-radius: 	3px;
+			  
+		box-shadow: inset 0 2px 4px 0 rgba(215, 215, 215, 0.7);
+		
+		-moz-box-sizing: border-box; 
+		box-sizing: border-box; 
+		text-align: left;
+		}
+
+	.collected_reviews_form  .inp-area input[type=text]{ max-width: 270px; }
+	.collected_reviews_form  .inp-area input[type="text"]:disabled { background:#f3f3f3; }
+	.collected_reviews_form  .inp-area label.option{ font-size: 10px; font-weight: none !important; line-height: 10px; }
+	.collected_reviews_form  .inp-area select { width: 230px; min-width: 200px; padding: 3px 7px; }
+	.collected_reviews_form  .inp-area textarea{ height: 80px; padding: 5px 7px; width: 100%;}
+
+	.collected_reviews_form .inp-area.captcha { clear: both;
+		padding: 10px 15px 10px 15px; margin: 10px 0; border-top: 1px solid #cecece; border-bottom: 1px solid #cecece;
+		background: #FFFAFB;
+		}
+		.collected_reviews_form .inp-area.captcha  .inp{ width: 245px; 	float: left; margin-right: -100%; }
+			.collected_reviews_form .inp-area.captcha  .inp  input{ width: 215px; }
+			.collected_reviews_form .inp-area.captcha  .img{
+				margin-left: 243px; 
+				padding-top: 5px; 
+				display: inline-block;   
+				
+				text-align: center;
+				-moz-box-sizing: border-box; 
+				box-sizing: border-box; 
+				}
+				
+				.collected_reviews_form  .inp-area.captcha .img img{  border: 1px solid #ccc;}
+				.collected_reviews_form  .inp-area.captcha .img a.reload{
+					border-bottom: 1px dashed #005580;
+					color: #005580;
+					margin: 0px 0px 0px 2px;
+					line-height: 40px;
+					text-decoration: none;
+					font-size: 80%;
+					}
+		
+
+	.collected_reviews_form .inp-area.buttons { padding: 15px 0 20px 0 !important; }
+	.collected_reviews_form .inp-area.buttons input{ float: left;}
+	.collected_reviews_form .inp-area.buttons span.req {float: right; font-size: 80%; color:  #626262; padding: 0 1px;}
+	.collected_reviews_form .inp-area.buttons span.req .required {font-size: 100%;}
+	.collected_reviews_form .inp-area.buttons .loader {
+		display: none; 
+		float: left; 
+		height: 18px; width: 18px; 
+		background: url(images/loader.gif) 0 0 no-repeat;
+		border: 0px solid #f00;
+		margin: 4px 0 0 6px;
+		}
+		
+		.collected_reviews_form  .inp-area input[type=submit]{
+			display: block; 
+			font-size: 14px; color: #ffffff; 
+			padding: 3px 10px; 
+			
+			background-color: hsl(195, 59%, 36%) !important;
+			background-repeat: repeat-x;
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3097ba", endColorstr="#257691");
+			background-image: -khtml-gradient(linear, left top, left bottom, from(#3097ba), to(#257691));
+			background-image: -moz-linear-gradient(top, #3097ba, #257691);
+			background-image: -ms-linear-gradient(top, #3097ba, #257691);
+			background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3097ba), color-stop(100%, #257691));
+			background-image: -webkit-linear-gradient(top, #3097ba, #257691);
+			background-image: -o-linear-gradient(top, #3097ba, #257691);
+			background-image: linear-gradient(#3097ba, #257691);
+			border-color: #257691 #257691 hsl(195, 59%, 33.5%);
+			color: #fff !important;
+			text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.16);
+			-webkit-font-smoothing: antialiased;
+			  
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+		
+			border: 1px solid #305773;
+			-moz-box-shadow:
+			0px 1px 3px rgba(000,000,000,0.5),
+			inset 0px 0px 1px rgba(255,255,255,0.7);
+			-webkit-box-shadow:
+			0px 1px 3px rgba(000,000,000,0.5),
+			inset 0px 0px 1px rgba(255,255,255,0.7);
+			box-shadow:
+			0px 1px 3px rgba(000,000,000,0.5),
+			inset 0px 0px 1px rgba(255,255,255,0.7);
+			cursor: pointer;
+		}
+
+	.collected_reviews_form  .inp-area input[type=submit]:active{
+		-moz-box-shadow:
+			0px 0px 0px rgba(000,000,000,0.5),
+			inset 0px 0px 5px rgba(255,255,255,0.7);
+		-webkit-box-shadow:
+			0px 0px 0px rgba(000,000,000,0.5),
+			inset 0px 0px 5px rgba(255,255,255,0.7);
+		box-shadow:
+			0px 0px 0px rgba(000,000,000,0.5),
+			inset 0px 0px 5px rgba(255,255,255,0.7);
+		}
+		
+
+
+	
+#review_captcha_img {
+	margin-top: 3px;
+	height: 40px !important;
+	}

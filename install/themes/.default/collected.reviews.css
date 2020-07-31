@@ -1,0 +1,49 @@
+/*
+ * Copyright (c) 31/7/2020 Created By/Edited By ASDAFF asdaff.asad@yandex.ru
+ */
+
+.collected_reviews_menu_icon {
+	background-image: url(icons/collected.reviews/mnu_reviews.png) !important;
+	background:url(icons/collected.reviews/mnu_reviews.png) 7px 2px no-repeat;
+	}
+	
+#collected_reviews_menu_icon {
+	background-image: url(icons/collected.reviews/mnu_reviews_18_18.png) !important;
+	background:url(icons/collected.reviews/mnu_reviews.png) 7px 2px no-repeat;
+	}
+	
+#collected_reviews_messages_page_icon {background-image:url(icons/collected.reviews/page_reviews.png);}
+
+
+#tbl_collected_reviews_messages .rating_counter{
+	display: block;
+	width: 90px;
+	margin: 0 7px 0 0;
+	padding: 0px !important;
+	background: url(images/collected.reviews/star16.png) 0 0 repeat-x;
+	overflow: hidden;
+	height: 16px;
+	float: left;
+	}
+
+#tbl_collected_reviews_messages .rating_counter.short{
+	width: 18px;
+	}
+	
+#tbl_collected_reviews_messages .rating_counter span{
+	display: inline-block;
+	margin: 0px !important;
+	padding: 0px !important;
+	height: 16px;
+	background: url(images/collected.reviews/star16.png) 0px -16px repeat-x;
+	}
+
+#tbl_collected_reviews_messages .status.N{
+	color: #ccc;
+	}
+#tbl_collected_reviews_messages .status.R{
+	color: red;
+	}
+#tbl_collected_reviews_messages .status.A{
+	color: green;
+	}

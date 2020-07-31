@@ -1,0 +1,97 @@
+/*
+ * Copyright (c) 31/7/2020 Created By/Edited By ASDAFF asdaff.asad@yandex.ru
+ */
+
+.collected_reviews_list {	width: 100%; min-width: 300px;}
+
+	
+	
+	.collected_reviews_list .review{ display: block; width: 100%; padding: 3px 0px !important; margin: 0px 0px 20px 0px; border-bottom: 1px solid #ccc; }
+		.collected_reviews_rating.common {margin-bottom: 20px;}
+		/*info*/	
+		.collected_reviews_list .review .review-info{ display: block;	width: 100%; padding: 5px 0px !important; margin: 0px 0px 5px 0px;	min-height: 22px; line-height: 22px; font-size: 11px; color: #717171; }
+			.collected_reviews_list .review .review-info .date{	display: inline-block;	margin-right: 7px;	}
+			.collected_reviews_list .review .review-info .user{	display: inline-block;	margin-right: 5px;	}
+			.collected_reviews_list .review .review-info .city{	display: inline-block;	margin-right: 5px;	}
+
+		/*text*/
+		.collected_reviews_list .review .text{	width: 100%; font-size: 12px; padding: 5px 0px !important; margin: 0px !important; border: none !important;}
+		.collected_reviews_list .review .text span{	display: block;	font-size: 11px; font-weight: bold; padding: 0px 0 3px 0 !important; color: #616161; overflow: hidden;}
+		.collected_reviews_list .review .collected_reviews_rating{width: auto; margin: 5px 0px; overflow: hidden; float: left;}
+		.collected_reviews_list .review .rating .star{ margin: 0px; }
+		.collected_reviews_list .review .clear {clear: both;}
+		
+		.collected_reviews_list .review .vote{display: block; width: auto; margin: 5px 0px; overflow: hidden; float: right; line-height: 22px; min-height: 22px;}
+		.collected_reviews_list .review .vote span {float: left; padding: 0 10px 0 0;}
+		.collected_reviews_list .review .vote span.sep {padding: 0px 9px;}
+		.collected_reviews_list .review .vote a{display: inline-block; margin-left: 1px; float: left;}
+		.collected_reviews_list .review .vote a:hover{text-decoration: none; }
+		.collected_reviews_list .review .vote a label {float: left; padding: 0 1px 0 1px;}
+		.collected_reviews_list .review .vote a span {float: left; color: #717171; padding: 0 0px 0px 5px;}
+		
+		.collected_reviews_list .review .vote a.useful {color: green; border-color: green;}
+		.collected_reviews_list .review .vote a.useless {color: red; border-color: red;}
+		.collected_reviews_list .review .vote a.voted {}
+		
+		
+		.collected_reviews_list .review .experience {display: block; float: left; line-height: 28px;	margin-left: 20px; font-size: 11px; color: #717171;}
+				
+		/*control*/
+		.collected_reviews_list .review .control { text-align: right; padding: 5px 10px; margin: 0px 0px; float: right; height: 16px;}
+			.collected_reviews_list .review .control a{	display: none;	margin: 0 0 0 15px;	padding: 0px 0px 0px 22px !important; color: #616161; font-size: 12px; height: 16px; line-height: 16px; color: #999;}
+			.collected_reviews_list .review .control a.remove{	padding: 0 0 0 0; background: url(images/remove.png) 0 0 no-repeat; }
+			.collected_reviews_list .review .control a.deactvate{	padding: 0 0 0 0;	background: url(images/deactiv.png) 0 0 no-repeat;	}
+			.collected_reviews_list .review:hover .control  a{display: inline-block;}
+		.collected_reviews_list  .btn-getmore{
+			display: inline-block; 
+			font-size: 13px;
+			color: #ffffff;
+			padding: 3px 10px;
+			
+			background-color: hsl(195, 59%, 36%) !important;
+			background-repeat: repeat-x;
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3097ba", endColorstr="#257691");
+			background-image: -khtml-gradient(linear, left top, left bottom, from(#3097ba), to(#257691));
+			background-image: -moz-linear-gradient(top, #3097ba, #257691);
+			background-image: -ms-linear-gradient(top, #3097ba, #257691);
+			background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3097ba), color-stop(100%, #257691));
+			background-image: -webkit-linear-gradient(top, #3097ba, #257691);
+			background-image: -o-linear-gradient(top, #3097ba, #257691);
+			background-image: linear-gradient(#3097ba, #257691);
+			border-color: #257691 #257691 hsl(195, 59%, 33.5%);
+			color: #fff !important;
+			text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.16);
+			-webkit-font-smoothing: antialiased;
+
+			  
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+		
+			border: 1px solid #305773;
+			-moz-box-shadow:
+			0px 1px 3px rgba(000,000,000,0.5),
+			inset 0px 0px 1px rgba(255,255,255,0.7);
+			-webkit-box-shadow:
+			0px 1px 3px rgba(000,000,000,0.5),
+			inset 0px 0px 1px rgba(255,255,255,0.7);
+			box-shadow:
+			0px 1px 3px rgba(000,000,000,0.5),
+			inset 0px 0px 1px rgba(255,255,255,0.7);
+			cursor: pointer;
+			
+			}
+			
+		.collected_reviews_list  .btn-getmore:hover{
+			text-decoration: none;
+			-moz-box-shadow:
+				0px 0px 0px rgba(000,000,000,0.5),
+				inset 0px 0px 5px rgba(255,255,255,0.7);
+			-webkit-box-shadow:
+				0px 0px 0px rgba(000,000,000,0.5),
+				inset 0px 0px 5px rgba(255,255,255,0.7);
+			box-shadow:
+				0px 0px 0px rgba(000,000,000,0.5),
+				inset 0px 0px 5px rgba(255,255,255,0.7);
+			}
+		

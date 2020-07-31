@@ -1,0 +1,110 @@
+/*
+ * Copyright (c) 31/7/2020 Created By/Edited By ASDAFF asdaff.asad@yandex.ru
+ */
+
+.collected_reviews_subscribe_form {
+	display: inline-block;
+	width: 100%;
+	max-width: 400px;
+	}
+	
+.collected_reviews_subscribe_form form{
+	display: inline-block;
+	width: auto;
+	position: relative;
+	display: block;
+	overflow: hidden;
+	}
+	
+.collected_reviews_subscribe_form .open{
+	text-decoration: none;
+	border-bottom: 1px dashed #3A75C4;
+	color: #3A75C4;
+	}
+
+.collected_reviews_subscribe_form .message.sucess{
+	color: green;
+	}
+	
+.collected_reviews_subscribe_form  .message.error{
+	color: red;
+	padding: 10px 0px;
+	border: 0px solid red;
+	}
+	
+.collected_reviews_subscribe_form  .inp-area{
+	display: block;
+	width: auto;
+	padding: 15px 0px 0px 0px;
+	overflow: hidden;
+	}
+	
+.collected_reviews_subscribe_form  .inp-area .required{
+	color: red;
+	font-size: 10px;
+	}
+	
+.collected_reviews_subscribe_form .inp-area label{
+	display: block;
+	float: left;
+	color: #616161;
+	width: auto;
+	font-weight: bold;
+	padding: 5px 10px 0px 0px;
+	margin: 0 -100% 0 0;
+	}
+	
+.collected_reviews_subscribe_form  .inp-area input[type=text]{
+	padding: 5px 15px; 
+	margin: 2px 5px 0px 55px;
+	float: left;
+	color: #616161;
+	width: 200px;
+	border: 1px solid #ccc;
+	
+	-webkit-border-radius:	3px;
+     -moz-border-radius: 	3px;
+          border-radius: 	3px;
+	}
+
+.collected_reviews_subscribe_form   input[type=submit]{
+	font-size: 14px;
+	color: #ffffff;
+	margin-left: 55px;
+	padding: 5px 15px;
+	background: -moz-linear-gradient(
+		top,
+		#2e85c7 0%,
+		#2173ad);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#2e85c7),
+		to(#2173ad));
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #305773;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	
+	cursor: pointer; 
+	}
+
+.collected_reviews_subscribe_form   input[type=submit]:active{
+	-moz-box-shadow:
+		0px 0px 0px rgba(000,000,000,0.5),
+		inset 0px 0px 5px rgba(255,255,255,0.7);
+	-webkit-box-shadow:
+		0px 0px 0px rgba(000,000,000,0.5),
+		inset 0px 0px 5px rgba(255,255,255,0.7);
+	box-shadow:
+		0px 0px 0px rgba(000,000,000,0.5),
+		inset 0px 0px 5px rgba(255,255,255,0.7);
+	}

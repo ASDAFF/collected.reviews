@@ -1,0 +1,19 @@
+<?
+$MESS["COLLECTED_REVIEW_SUBSCR_MESSAGES_TITLE"] = "Подписки на новые отзывы";
+
+$MESS["COLLECTED_REVIEW_SUBSCR_ID"] = "ID";
+$MESS["COLLECTED_REVIEW_SUBSCR_DATE_CREATE"] = "Дата";
+$MESS["COLLECTED_REVIEW_SUBSCR_IBLOCK_ID"] = "Инфоблок";
+$MESS["COLLECTED_REVIEW_SUBSCR_ELEMENT_ID"] = "Элемент";
+$MESS["COLLECTED_REVIEW_SUBSCR_EMAIL"] = "Email";
+
+$MESS["COLLECTED_REVIEW_SUBSCR_CONFIRMED"] = "Подтвержден";
+$MESS["COLLECTED_REVIEW_SUBSCR_SITE"] = "Сайт";
+
+$MESS["REVIEW_ACTION_DEL"] = "Удалить";
+$MESS["REVIEW_DEL_CONFIRM"] = "Вы действительно хотите удалить отзыв?";
+
+$MESS["REVIEW_SUBSCRIBE_DELETE_ERROR"] = "Ошибка при удалении подписки";
+
+
+?>
