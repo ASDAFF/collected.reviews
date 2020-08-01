@@ -34,8 +34,8 @@ if(is_dir($p = $_SERVER['DOCUMENT_ROOT'].'/bitrix/modules/'.self::MODULE_ID.'/in
 			CopyDirFiles($p.'/'.$item, $_SERVER['DOCUMENT_ROOT'].'/'.$item, $ReWrite = True, $Recursive = True);
 			
 			//перекодировка
-			if (defined('BX_UTF') && BX_UTF)
-				my_readDir($_SERVER['DOCUMENT_ROOT'].'/'.$item); 
+//			if (defined('BX_UTF') && BX_UTF)
+//				my_readDir($_SERVER['DOCUMENT_ROOT'].'/'.$item);
 			
 		}
 		closedir($dir);
